@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Central_computer">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <AssociationLine Name="subsriber" Type="Subscriber">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.11" Y="0.06" Height="0.182" Width="1.001" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAABgAEAABAAAAAAAADAAAAAAACAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>third.hpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="subsriber" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dashboard">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>third.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subscriber">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Subscriber::data_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>third.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAEAAA=</HashCode>
+      <FileName>third.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
